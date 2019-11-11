@@ -1,0 +1,6 @@
+= CrudRepository update doesn't generate new value for @DateUpdated prop
+
+An entity with a property 'updated' annotated with `@DateUpdated` won't get updated when using the
+repository method `update(Entity e)`.
+
+See included test `link:src/test/groovy/net/safri/mn/data/TestRepositorySpec.groovy[TestRepositorySpec.groovy]`

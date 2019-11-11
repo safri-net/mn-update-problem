@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: net.safri.mn.data
+---
+testFramework: spock
+sourceLanguage: groovy
